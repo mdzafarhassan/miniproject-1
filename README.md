@@ -1,2 +1,3 @@
 # miniproject
-Mini Project sample
+Mini Project sample.
+Opened file on VSCode.

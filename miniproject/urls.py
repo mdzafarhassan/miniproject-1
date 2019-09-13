@@ -18,7 +18,7 @@ from django.contrib import admin
 from welcome import views
 
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
-    url(r'^test/',views.demo),
-    url('', include('welcome.urls')),
+    url(r'^admin', admin.site.urls),
+    url(r'^test',views.demo),
+    url(r'', include('welcome.urls')),
 ]

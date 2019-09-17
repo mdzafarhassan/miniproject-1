@@ -1,4 +1,34 @@
 body {
-    background-color: turquoise;
+    background-color: grey;
+}
 
+.container{
+    width: 80%;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px;
+}
+
+#main-header{
+    background-color: darkolivegreen;
+    width: 100%;
+}
+
+#main-fotter{
+    background-color: darkolivegreen;
+    width: 100%;
+}
+
+#main-nav li{
+    font-size: 16px;
+    margin: 5px;
+    display: inline;
+}
+
+#main-nav li a{
+    color: aquamarine;
+}
+
+#main-header-image{
+    
 }

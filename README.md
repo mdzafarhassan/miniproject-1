@@ -1,11 +1,6 @@
 # miniproject
-Mini Project sample.
-Opened file on VSCode.
-test change to push.
+##Hello To all
 
-commit test 2.
+This is Practice project/app
 
-hard and soft reset test after reset.
-Final Commit
-
-After Issues
+###Z[A]K ~ Eternity

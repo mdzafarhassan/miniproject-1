@@ -1,12 +1,21 @@
 body {
-    background-color: grey;
+    background-color:#f4f4f4;
+	color:#555;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	line-height:1.6em;
+	margin:0;
+}
+
+#main-header{
+    background-color: darkslategrey;
+
 }
 
 .container{
     width: 80%;
-    font-size: 14px;
-    font-family: 'Courier New', Courier, monospace;
-    margin: 20px;
+    margin:auto;
+	overflow:hidden;
 }
 
 #main-header{
@@ -14,21 +23,53 @@ body {
     width: 100%;
 }
 
+#navbar{
+	background-color:#333;
+	color:#fff;
+	margin: 0px;
+	padding:0;
+}
+
+#navbar ul{
+	padding:0;
+    margin: 0;
+	list-style: none;
+}
+
+
+#navbar li{
+	display:inline;
+}
+
+#navbar a{
+	color:#fff;
+	text-decoration: none;
+	font-size:18px;
+	padding-right:15px;
+}
+
+#navbar ul div{
+    float: right;
+    font-size: 18px;
+    border-radius: 60px;
+    padding: 2px 20px;
+}
+
+#navbar a:hover{
+    color: darkviolet;
+    
+}
+
 #main-fotter{
     background-color: darkolivegreen;
     width: 100%;
 }
 
-#main-nav li{
-    font-size: 16px;
-    margin: 5px;
-    display: inline;
-}
-
-#main-nav li a{
-    color: aquamarine;
-}
-
 #main-header-image{
-    
+    color: brown;
+}
+
+
+#reigster-from input{
+	width: 100%;
 }

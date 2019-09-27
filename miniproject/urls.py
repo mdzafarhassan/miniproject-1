@@ -19,6 +19,7 @@ from welcome import views
 
 urlpatterns = [
     url(r'^admin', admin.site.urls),
-    url(r'^test',views.demo),
-    url(r'', include('welcome.urls')),
+    url(r'^api-auth/', include('rest_framework.urls')),
+    
+    url('', include('welcome.urls')),
 ]

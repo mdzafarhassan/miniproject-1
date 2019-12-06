@@ -3,7 +3,31 @@
 
 
 {% block content %}
+  <form action="login" method="post" id="register-form" onsubmit="return checkForm(this);">
+      {% csrf_token %}
+  <div class="container">
+      <h1>Login</h1>
 
-<h1>Login</h1>
+      <label for="username"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="username" required>
 
+      
+      <label for="password"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="password" required>
+
+      <button type="submit" class="registerbtn">Register</button>
+  </div>
+      
+  <div class="container signin">
+      <p>Don't have an account? <a href="/register">Sign Un</a>.</p>
+  </div> 
+
+  {% if messages %}
+  <ul class="error-messages">
+      {% for message in messages %}
+      <li  {% if message.tags %} class=" {{ message.tags }} " {% endif %}> {{ message }} </li>
+      {% endfor %}
+  </ul>
+  {% endif %}
+  
 {% endblock %}

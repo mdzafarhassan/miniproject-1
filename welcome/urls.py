@@ -10,4 +10,5 @@ urlpatterns = [
     url('logout', views.logout, name='logout'),
 
     url('test', views.test, name='test'),
+    url('demo', views.demo, name='demo')
 ]

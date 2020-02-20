@@ -57,7 +57,7 @@ body {
 
 #navbar a:hover{
     color: darkviolet;
-    
+
 }
 
 #main-fotter{
@@ -72,4 +72,12 @@ body {
 
 #reigster-from input{
 	width: 100%;
+}
+
+#register-form .container{
+  width: 45%
+}
+
+#register-form .container label{
+  margin: 25px 0 0 0;
 }

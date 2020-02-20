@@ -1,5 +1,5 @@
 body{
-    
+
     background-color: grey;
 }
 
@@ -56,4 +56,28 @@ a {
 
 .error-messages{
   color: red;
+}
+
+#register-form .container{
+  width: 45%;
+}
+
+#register-form h1, #register-form p{
+  text-align: center;
+}
+
+#register-form .container input{
+  margin: 0 0 30px 0;
+}
+/*
+#register-form label{
+  width: 30%;
+}
+#register-form input{
+  width: 50%;
+} */
+.vl {
+  border-left: 1px solid #fff;
+  height: 50px;
+  margin: 0 10px 0 0;
 }

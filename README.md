@@ -4,4 +4,4 @@
 This is Practice project/app
 
 ### Z[A]K ~ Eternity.
-YOLO
+YOLO...
